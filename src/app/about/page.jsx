@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
 
+export const metadata = {
+  title: "Next js app",
+  description: "Next js core concepts",
+};
+
 const AboutPage = () => {
     return (
         <main className="flex flex-col items-center justify-between p-24">
